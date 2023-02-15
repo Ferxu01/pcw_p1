@@ -1,0 +1,40 @@
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.logo-container {
+    margin-right: 15px;
+}
+
+.title-container {
+    line-height: 40px;
+}
+
+.title-container > * {
+    text-align: center;
+}
+
+/*img {
+    border: 1px solid blue;
+}*/
+  
+h1 {
+    /*border: 1px solid green;*/
+    /*font-size: 36px;
+    margin: 10px 0;*/
+}
+  
+p {
+    /*border: 1px solid red;*/
+    /*font-size: 18px;
+    margin: 0;
+    text-align: center;*/
+}
