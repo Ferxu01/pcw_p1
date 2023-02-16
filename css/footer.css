@@ -1,0 +1,28 @@
+.site-footer{
+    /*background-color: #333333;*/
+    background-color: lightblue;
+    width: auto;
+    position: sticky;
+    top: 100%;
+    padding: 1em;
+    font-family: 'Arial';
+}
+
+.about-us{
+    float: left;
+}
+
+.copyright-text{
+    float: right;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    /*background-color: #111111;*/
+    color: cadetblue;
+}
+
