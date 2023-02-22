@@ -11,3 +11,82 @@ body {
     width: 1200px;
     margin: 0 auto;
 }
+
+hr {
+    margin: 0 10px 0 10px;
+}
+
+section {
+    background-color: lightgray;
+}
+
+section h1 {
+    font-family: 'Arial';
+    font-size: 30px;
+    margin: 0 0 15px 20px;
+    padding-top: 30px;
+}
+
+#notices {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+}
+
+p.notice-title {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 10px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.notice-container {
+    width: 275px;
+    padding: 20px 0 0 20px;
+    margin-bottom: 10px;
+
+
+}
+.notice-container > img {
+    border-radius: 5px;
+}
+
+.info > .notice-date {
+    float: right;
+}
+
+.username {
+    width: 70px;
+}
+.notice-date {
+    width: 125px;
+}
+
+.notice-date > p {
+    margin-right: 13px;
+}
+
+.notice-date > p, .username > p {
+    float: right;
+}
+
+#pagination {
+    background-color: gray;
+}
+
+.center-pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.btn-pagination {
+    margin: 0 2px;
+    padding: 5px;
+}
