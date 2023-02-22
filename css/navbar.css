@@ -9,26 +9,24 @@ nav ul{
 }
 nav ul li{
     display: inline-block;
-    margin: 0 10;
-    
 }
 
-nav ul li img {
-    padding-top: 0.5em;
-    margin-right: 15px;
-    float: right;
-}
-
-nav ul li a {
-    display: block;
-    width: 100px;
+nav ul li a{
+    text-align: center;
+    display: inline;
+    padding: 0.5em;
     color: white;
-    padding: 16px;
     text-decoration: none;
     font-family: 'Arial';
     font-size: large;
 }
-nav ul li a:hover {
+
+nav ul li a img{
+    padding: 0.5em;
+    vertical-align: middle;
+}
+
+nav ul li:hover {
     /*background-color: #111111;*/
-    background-color: gray;
+    background-color: cadetblue;
 }
