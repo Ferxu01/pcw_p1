@@ -2,7 +2,7 @@
     /*background-color: #333333;*/
     background-color: lightblue;
     width: auto;
-    position: sticky;
+    position: sticky; /* El pie de pagina se queda separado abajo del todo */
     top: 100%;
     padding: 1em;
     font-family: 'Arial';
