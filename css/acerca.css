@@ -1,0 +1,31 @@
+@import url(header.css);
+@import url(navbar.css);
+
+div.general {
+    text-align: center;
+}
+
+div.info {
+    display: inline-block;
+    border: solid;
+    margin: 1em 0.5em;
+    padding: 1em 1.5em;
+}
+
+div.info p {
+    text-align: left;
+}
+
+div.checkboxes {
+    text-align: left;
+    margin-left: 1em;
+    border: solid;
+}
+
+ul {
+    list-style: none;
+}
+
+div.checkboxes>ul {
+    margin-left: -2em;
+}
