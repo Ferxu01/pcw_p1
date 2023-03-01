@@ -49,6 +49,7 @@ body > nav > ul > li > a{
     text-decoration: none;
     color: #000;
     font-family: 'Courier New', Courier, monospace;
+    padding: 0 10px 10px 10px;
 }
 
 body > nav > ul > li > a:hover{
@@ -83,6 +84,7 @@ body > nav > label {
         flex-grow: 1;
         align-items: center;
         justify-content: space-evenly;
+
     }
 
     body > nav > ul > li > a {

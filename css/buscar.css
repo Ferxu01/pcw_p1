@@ -1,0 +1,26 @@
+@import url('header.css');
+@import url('navbar.css');
+@import url('footer.css');
+
+div.filter-form {
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: stretch;
+    padding: 20px;
+    border: 1px solid red;
+    line-height: 25px;
+
+    
+}
+
+div.notice-search, div.date-search {
+    border: 1px solid green;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    
+}
+
+div.previous-date, div.next-date {
+    /*margin: 10px;*/
+}
