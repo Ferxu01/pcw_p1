@@ -1,19 +1,23 @@
 .site-footer{
-    /*background-color: #333333;*/
+    position: relative;
     background-color: lightblue;
     width: auto;
-    position: sticky; /* El pie de pagina se queda separado abajo del todo */
-    top: 100%;
-    padding: 1em;
     font-family: 'Arial';
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
 }
 
 .about-us{
     float: left;
+    text-align: left;
 }
 
 .copyright-text{
     float: right;
+    text-align: right;
 }
 
 footer a{
@@ -23,6 +27,6 @@ footer a{
 
 footer a:hover {
     /*background-color: #111111;*/
-    color: cadetblue;
+    color: darkcyan;
 }
 
