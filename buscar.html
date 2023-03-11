@@ -51,34 +51,32 @@
     </nav>
 
     <section>
+        <h2>Criterios de búsqueda</h2>
+        <hr>
         <div class="filter-form">
             <form>
                 <div class="notice-search">
-                    <label>Buscar por texto:</label>
-                    <input type="text" name="textSearch">
-                    
+                    <label>Contiene:</label>
+                    <input type="text" name="textSearch" placeholder="Palabras separadas por comas">
+                    <div class="date-search">
+                        <!--<div class="previous-date">-->
+                            <label>Desde:</label>
+                            <input type="date" name="dateFrom">
+                            <br>
+                        <!--</div>-->
+                        <!--<div class="next-date">-->
+                            <label>Hasta:</label>
+                            <input type="date" name="dateFrom">
+                        <!---</div>-->
+                    </div>
                     <label>Ubicación:</label>
-                    <select name="locationSearch">
-                        <option value="">Localidad 1</option>
-                        <option value="">Localidad 2</option>
-                        <option value="">Localidad 3</option>
-                        <option value="">Localidad 4</option>
-                    </select>
+                    <input type="text" name="locationSearch" placeholder="Palabras separadas por comas">
                 </div>
-
-                <div class="date-search">
-                    <div class="previous-date">
-                        <label>Desde (fecha límite inferior):</label>
-                        <input type="date" name="dateFrom">
-                    </div>
-                    <div class="next-date">
-                        <label>Hasta (fecha límite superior):</label>
-                        <input type="date" name="dateFrom">
-                    </div>
-                </div>
+                <input type="submit" value="Buscar">
+                <input type="reset" value="Limpiar">
             </form>
         </div>
-        <h2>Resultados</h2>
+        <h2>Resultado de la búsqueda</h2>
         <hr>
         <div id="notices">
             <article class="notice-container">
