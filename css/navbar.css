@@ -1,6 +1,5 @@
 body > nav {
     background-color: #99FFA2FF;
-
     position: sticky;
     top: 0;
 }
@@ -9,7 +8,6 @@ body > nav > ul{
     list-style: none;
     margin: 0;
     padding: 0;
-
     display: none; /* Se oculta el elemento */
 }
 
@@ -22,7 +20,6 @@ body > nav > ul > li > a{
 }
 
 body > nav > ul > li > a:hover{
-    /*background-color: #234E87FF;*/
     background-color: gray;
     color: #fff;
 }
@@ -48,7 +45,6 @@ body > nav > label {
     }
 
     body > nav > ul > li {
-        /*display: inline-block;*/
         display: flex; /*Loa enlaces quedan con ancho que ocupan y enlace no es amplio*/
         flex-grow: 1;
         align-items: center;

@@ -35,23 +35,6 @@ header {
     }
 }
 
-
-
-
-
-/*img {
-    border: 1px solid blue;
-}*/
-  
-/* h1 {
-    border: 1px solid green;
-    font-size: 36px;
-    margin: 10px 0;
-}*/
-  
-/*p {
-    border: 1px solid red;
-    font-size: 18px;
-    margin: 0;
-    text-align: center;
-}*/
+.header-img {
+    width: 175px;
+}

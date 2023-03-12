@@ -1,7 +1,3 @@
-@import url('header.css');
-@import url('navbar.css');
-@import url('footer.css');
-
 section h2 {
     font-size: 20px;
 }
@@ -9,10 +5,6 @@ section h2 {
 article.publish-container {
     margin: 10px 20px;
 }
-
-/*article.publish-container > .publish-imgs > div > img {
-    width: 100%;
-}*/
 
 article.publish-container > .publish-imgs {
     display: flex;
@@ -145,6 +137,14 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
 .comments-info {
     width: 30%;
+}
+
+.sm-icon-height {
+    height: 10px;
+}
+
+.md-icon-height {
+    height: 20px;
 }
 
 @media (min-width: 480px) {
