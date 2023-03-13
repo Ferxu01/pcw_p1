@@ -35,7 +35,7 @@ section h2 {
     justify-content: space-evenly;
 }
 
-p.notice-title {
+.notice-title {
     font-family: 'Arial';
     font-weight: bold;
     font-size: 16px;
@@ -46,19 +46,15 @@ p.notice-title {
     text-overflow: ellipsis;
 }
 
-p.notice-title > a {
+.notice-title > a {
     text-decoration: none;
     color: #000;
 }
 
 .notice-container {
-    /*width: 275px;*/
     width: 90%;
     padding: 20px 0 0 20px;
     margin-bottom: 10px;
-    /*justify-content: space-evenly;*/
-
-
 }
 
 .notice-container > a > img {
@@ -87,6 +83,14 @@ p.notice-title > a {
 
 .notice-date > p, .username > p {
     float: right;
+}
+
+.small-icon-1 {
+    width: 12px;
+}
+
+.small-icon-2 {
+    width: 15px;
 }
 
 #pagination {
