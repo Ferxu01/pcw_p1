@@ -4,9 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Buscar</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/buscar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -33,52 +36,48 @@
                 <a href="index.html"><span>Inicio</span><img src="images/icons/home-icon.png" alt="home-icon"></a>
             </li>
             <li>
-                <a href="buscar.html"><span>Buscar</span><img src="images/icons/search-icon.png" alt="home-icon"></a>
+                <a href="buscar.html"><span>Buscar</span><img src="images/icons/search-icon.png" alt="search-icon"></a>
             </li>
             <li>
-                <a href="nueva.html"><span>Nueva</span><img src="images/icons/new-icon.png" alt="home-icon"></a>
+                <a href="nueva.html"><span>Nueva</span><img src="images/icons/new-icon.png" alt="new-icon"></a>
             </li>
             <li>
-                <a href="index.html"><span>Logout</span><img src="images/icons/logout-icon.png" alt="home-icon"></a>
+                <a href="index.html"><span>Logout</span><img src="images/icons/logout-icon.png" alt="logout-icon"></a>
             </li>
             <li>
-                <a href="login.html"><span>Login</span><img src="images/icons/login-icon.png" alt="home-icon"></a>
+                <a href="login.html"><span>Login</span><img src="images/icons/login-icon.png" alt="login-icon"></a>
             </li>
             <li>
-                <a href="registro.html"><span>Registro</span><img src="images/icons/register-icon.png" alt="home-icon"></a>
+                <a href="registro.html"><span>Registro</span><img src="images/icons/register-icon.png"
+                        alt="register-icon"></a>
             </li>
         </ul>
     </nav>
 
     <section>
+        <h2>Criterios de búsqueda</h2>
+        <hr>
         <div class="filter-form">
             <form>
                 <div class="notice-search">
-                    <label>Buscar por texto:</label>
-                    <input type="text" name="textSearch">
-                    
-                    <label>Ubicación:</label>
-                    <select name="locationSearch">
-                        <option value="">Localidad 1</option>
-                        <option value="">Localidad 2</option>
-                        <option value="">Localidad 3</option>
-                        <option value="">Localidad 4</option>
-                    </select>
-                </div>
+                    <label>Contiene:</label>
+                    <input type="text" name="textSearch" placeholder="Palabras separadas por comas">
 
-                <div class="date-search">
-                    <div class="previous-date">
-                        <label>Desde (fecha límite inferior):</label>
+                    <div class="date-search">
+                        <label>Desde:</label>
                         <input type="date" name="dateFrom">
-                    </div>
-                    <div class="next-date">
-                        <label>Hasta (fecha límite superior):</label>
+                        <br>
+                        <label>Hasta:</label>
                         <input type="date" name="dateFrom">
-                    </div>
                 </div>
+                <label>Ubicación:</label>
+                <input type="text" name="locationSearch" placeholder="Palabras separadas por comas">
+            </div>
+            <input type="submit" value="Buscar">
+            <input type="reset" value="Limpiar">
             </form>
         </div>
-        <h2>Resultados</h2>
+        <h2>Resultado de la búsqueda</h2>
         <hr>
         <div id="notices">
             <article class="notice-container">
@@ -165,7 +164,7 @@
                     </div>
                 </div>
             </article>
-            
+
             <article class="notice-container">
                 <p class="notice-title"><a href="publicacion.html">Título de noticia 6</a></p>
                 <a href="publicacion.html"><img src="images/insecto.jpg" alt="Foto noticia"></a>
@@ -198,11 +197,12 @@
     <footer class="site-footer">
         <div class="container">
             <h3 class="about-us"><a href="acerca.html">Acerca de nosotros...</a></h3>
-  
-            <p class="copyright-text">Copyright &copy;2023 All Rights Reserved by <em>Sergio Pernas and Fernando Ortega</em>.</p>
+
+            <p class="copyright-text">Copyright &copy;2023 All Rights Reserved by <em>Sergio Pernas and Fernando
+                    Ortega</em>.</p>
             <div style="clear: both"></div>
         </div>
-  </footer>
+    </footer>
 </body>
 
 </html>
