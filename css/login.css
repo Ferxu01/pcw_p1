@@ -1,3 +1,79 @@
-@import url(header.css);
-@import url(navbar.css);
-@import url(footer.css);
+div.login-div {
+    padding: 20px;
+    line-height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button[type="submit"] {
+    width: fit-content;
+    height: fit-content;
+    padding: 4px;
+    background-color: #3a70d3;
+    border: 2px solid #3a70d3;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: lightblue;
+    opacity: 0.7;
+    color: #000;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 90%;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 10em;
+    background-color: lightblue;
+    color: #000;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover, input[type="text"]:focus,
+input[type="password"]:focus {
+    width: 90%;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 10em;
+    background-color: lightblue;
+    color: #000;
+    border: solid black 3px;
+}
+
+input#text {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 480px) {
+    body {
+        margin: 0 auto;
+    }
+
+    div.login-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 760px) {
+    body {
+        margin: 0 auto;
+    }
+
+    div.login-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
+
+/* button.boton_inicio{
+    margin: 1em auto;
+    align-self: center;
+    
+} */
