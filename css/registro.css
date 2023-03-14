@@ -1,14 +1,12 @@
 .register-div {
-    padding: 5px;
     line-height: 35px;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    align-items: center;
-    margin: 10px;;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .form-div {
-    flex: 0.5;
     margin-left: 20px;
     padding: 5px;
 }
@@ -18,30 +16,27 @@ input[type="text"], input[type="password"], input[type="email"] {
     height: 30px;
     padding: 0px 10px;
     border-radius: 10em;
-    background-color: lightblue;
     color: #000;
 }
 
-input[type="file"]{
+input[type="file"]:not(.examinar){
     display: none;
 }
 
 .image-div {
     margin-left: 20px;
     margin-right: 20px;
-    width: fit-content;
 }
 
 .image-div img {
     display: block;
-    max-width: fit-content;
     border: 10px ridge;
     padding: 2px;
     height: auto;
     margin-bottom: 10px;
 }
 
-input[type="submit"], div.buttons button{
+/*input[type="submit"], div.buttons button{
     width: fit-content;
     height: fit-content;
     padding: 4px;
@@ -51,13 +46,7 @@ input[type="submit"], div.buttons button{
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     margin-top: 15px;
-}
-
-input[type="submit"]:hover, div.buttons button:hover{
-    background-color: lightblue;
-    opacity: 0.7;
-    color: #000;
-}
+}*/
 
 div.buttons {
     display: flex;
@@ -69,25 +58,17 @@ div.buttons button{
 }
 
 @media (min-width: 480px) {
-    body {
-        margin: 0 auto;
-    }
-
-    div.register-div {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+    .image-div {
+        margin: auto;
     }
 }
 
 @media (min-width: 760px) {
-    body {
-        margin: 0 auto;
+    div.register-div {
+        flex-direction: row;
     }
 
-    div.register-div {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
+    .form-div {
+        width: 50%;
     }
 }

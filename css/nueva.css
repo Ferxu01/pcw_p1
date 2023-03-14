@@ -8,14 +8,14 @@ section {
     padding: 20px;
 }
 
-form {
+/*form {
     margin: 0 auto;
     max-width: 500px;
     padding: 20px;
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
+}*/
 
 form > label {
     font-family: Arial, Helvetica, sans-serif;
@@ -45,10 +45,6 @@ input[type="text"], textarea {
 
 input[type="text"]:focus, textarea:focus {
     border-color: #008CBA;
-}
-    
-input[list] {
-    font-size: 16px;
 }
     
 section#fotos {
@@ -93,7 +89,6 @@ div.add-delete-btn > button {
 .control-imgs > .seleccionar-foto,
 .control-imgs > .add-delete-btn > .eliminar-foto,
 .control-imgs > .add-delete-btn > .nueva-foto {
-    background-color: lightsalmon;
     color: black;
     border: none;
     border-radius: 4px;
@@ -101,6 +96,18 @@ div.add-delete-btn > button {
     font-size: 12px;
     cursor: pointer;
     margin-top: 20px;
+}
+
+.control-imgs > .add-delete-btn > .eliminar-foto,
+.control-imgs > .add-delete-btn > .nueva-foto {
+    background-color: #2dc40f;
+    color: #fff;
+    font-weight: 700;
+}
+
+.control-imgs > .add-delete-btn > .eliminar-foto:hover,
+.control-imgs > .add-delete-btn > .nueva-foto:hover {
+    background-color: #1c750a;
 }
         
 /* Estilos para los botones */
@@ -121,10 +128,4 @@ button[type="submit"]:hover, button[type="reset"]:hover, button.nueva-foto:hover
         
 button[type="submit"]:active, button[type="reset"]:active, button.nueva-foto:active {
     background-color: #00323D;
-}
-
-@media (min-width: 480px) {
-}
-
-@media (min-width: 760px) {
 }
