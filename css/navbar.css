@@ -6,21 +6,22 @@ body > nav {
 }
 
 body > nav > ul{
-    list-style: none;
     margin: 0;
     padding: 0;
-    display: none; /* Se oculta el elemento */
+    width: 100%;
+    justify-content: flex-start;
 }
 
-body > nav > ul > li > a{
-    display: block;
+body > nav > ul > li{
     text-decoration: none;
     color: #000;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 0 10px 15px 20px;
+    padding: 0 10px 5px 20px;
+    display: block;
+    height: 100%;
 }
 
-body > nav > ul > li > a:hover{
+body > nav > ul > li:hover{
     background-color: #e59400;
 }
 
@@ -34,16 +35,17 @@ body > nav > label {
     display: none;
 }
 
-#chkMenu:checked + ul {
+#chkMenu:checked + table {
     display: block; /* Muestra el desplegable */
 }
 
 @media (min-width: 480px) {
-    body > nav > ul {
+    body > nav > ul{
         display: flex;
     }
 
-    body > nav > ul > li {
+    body > nav > ul > li{
+        /*display: inline-block;*/
         display: flex; /*Loa enlaces quedan con ancho que ocupan y enlace no es amplio*/
         flex-grow: 1;
         align-items: center;

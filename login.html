@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/index.css">
+
 </head>
-<style>
-</style>
 
 <body>
     <header>
@@ -34,31 +37,49 @@
                 <a href="index.html"><span>Inicio</span><img src="images/icons/home-icon.png" alt="home-icon"></a>
             </li>
             <li>
-                <a href="buscar.html"><span>Buscar</span><img src="images/icons/search-icon.png" alt="home-icon"></a>
+                <a href="buscar.html"><span>Buscar</span><img src="images/icons/search-icon.png" alt="search-icon"></a>
             </li>
             <li>
-                <a href="nueva.html"><span>Nueva</span><img src="images/icons/new-icon.png" alt="home-icon"></a>
+                <a href="nueva.html"><span>Nueva</span><img src="images/icons/new-icon.png" alt="new-icon"></a>
             </li>
             <li>
-                <a href="index.html"><span>Logout</span><img src="images/icons/logout-icon.png" alt="home-icon"></a>
+                <a href="index.html"><span>Logout</span><img src="images/icons/logout-icon.png" alt="logout-icon"></a>
             </li>
             <li>
-                <a href="login.html"><span>Login</span><img src="images/icons/login-icon.png" alt="home-icon"></a>
+                <a href="login.html"><span>Login</span><img src="images/icons/login-icon.png" alt="login-icon"></a>
             </li>
             <li>
                 <a href="registro.html"><span>Registro</span><img src="images/icons/register-icon.png"
-                        alt="home-icon"></a>
+                        alt="register-icon"></a>
             </li>
         </ul>
     </nav>
-    <div></div>
+
+    <main>
+        <section>
+            <h2>Iniciar sesión</h2>
+            <hr>
+            <div class="login-div">
+                <form class="login-form" action="registro.html">
+                    <label for="text">Email o usuario:<br></label>
+                    <input type="text" id="text" name="text" autofocus required><br>
+
+                    <label for="password">Contraseña:<br></label>
+                    <input type="password" id="pass" name="pass" required><br>
+                    <button class="boton_inicio" type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
     <footer class="site-footer">
         <div class="container">
             <h3 class="about-us"><a href="acerca.html">Acerca de nosotros...</a></h3>
 
             <p class="copyright-text">Copyright &copy;2023 All Rights Reserved by <em>Sergio Pernas and Fernando
-                    Ortega</em>.</p>
-            <div style="clear: both"></div>
+                    Ortega</em>.
+            </p>
         </div>
     </footer>
 </body>
