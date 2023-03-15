@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/forms.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
 
@@ -18,12 +19,12 @@
         <div class="header">
             <div class="logo-container">
                 <a href="index.html">
-                    <img width="175px" src="images/insecto.jpg" alt="Logo de la web">
+                    <img class="header-img" src="images/logo.png" alt="Logo de la web">
                 </a>
             </div>
             <div class="title-container">
-                <h1>Título de la cabecera</h1>
-                <p>Descripción corta de la cabecera; Descripción corta de la cabecera</p>
+                <h1>Barrio en Acción</h1>
+                <p>Aquí encontrarás las noticias más relevantes de nuestro barrio</p>
             </div>
         </div>
     </header>
@@ -57,16 +58,16 @@
 
     <main>
         <section>
-            <h2>Iniciar sesión</h2>
-            <hr>
             <div class="login-div">
                 <form class="login-form" action="registro.html">
-                    <label for="text">Email o usuario:<br></label>
+                    <h2>Iniciar sesión</h2>
+                    
+                    <label for="text">Email o usuario<br></label>
                     <input type="text" id="text" name="text" autofocus required><br>
 
-                    <label for="password">Contraseña:<br></label>
+                    <label for="password">Contraseña<br></label>
                     <input type="password" id="pass" name="pass" required><br>
-                    <button class="boton_inicio" type="submit">Iniciar Sesión</button>
+                    <input type="submit" value="Entrar">
                 </form>
             </div>
 

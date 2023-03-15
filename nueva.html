@@ -55,16 +55,16 @@
     </nav>
 
     <section>
-        <form>
+        <form id="nuevo">
             <h2>Añadir nueva noticia</h2>
-            <label for="titulo">Título:</label>
-            <input type="text" id="titulo" name="titulo" maxlength="200" required>
+            <label for="titulo">Título</label>
+            <input class="newTitle" type="text" id="titulo" name="titulo" maxlength="200" autofocus required>
       
-            <label for="texto">Texto:</label>
-            <textarea id="texto" name="texto" required></textarea>
+            <label for="texto">Texto</label>
+            <textarea class="newText" id="texto" name="texto" required></textarea>
       
-            <label for="ubicacion">Ubicación:</label>
-            <input type="text" id="ubicacion" name="ubicacion" list="ubicaciones" maxlength="100" required>
+            <label for="ubicacion">Ubicación</label>
+            <input class="newLoc" type="text" id="ubicacion" name="ubicacion" list="ubicaciones" maxlength="100" required>
             <datalist id="ubicaciones">
               <option value="Alicante">
               <option value="Valencia">
@@ -73,7 +73,7 @@
             </datalist>
       
             <article id="fotos">
-              <h3>Fotos:</h3>
+              <h3>Fotos</h3>
               <div class="foto">
                 <input type="file" accept="image/*" name="foto" id="foto">
                 <label for="foto">
@@ -90,8 +90,8 @@
               </div>
             </article>
       
-            <button type="submit">Enviar</button>
-            <button type="reset">Resetear</button>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
           </form>
     </section>
 
