@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -16,12 +17,12 @@
         <div class="header">
             <div class="logo-container">
                 <a href="index.html">
-                    <img width="175px" src="images/insecto.jpg" alt="Logo de la web">
+                    <img width="175px" src="images/logo.png" alt="Logo de la web">
                 </a>
             </div>
             <div class="title-container">
-                <h1>Título de la cabecera</h1>
-                <p>Descripción corta de la cabecera; Descripción corta de la cabecera</p>
+                <h1>Barrio en Acción</h1>
+                <p>Aquí encontrarás las noticias más relevantes de nuestro barrio</p>
             </div>
         </div>
     </header>
@@ -52,114 +53,203 @@
             </li>
         </ul>
     </nav>
-    <h1><u>Acerca de nosotros:</u></h1>
+    <section>
+        <h2>Acerca de nosotros:</h2>
+        <hr>
+        <p>La práctica consiste en implementar mediante HTML y CSS un sitio web responsive de tipo social en el que los
+            vecinos de una comunidad (barrio, pueblo, ciudad, etc) publicarán y
+            comentarán todas aquellas noticias o informaciones relacionadas con el lugar en el que
+            viven.
+        </p>
 
-    <p>La práctica consiste en implementar mediante HTML y CSS un sitio web responsive de tipo
-        social en el que los vecinos de una comunidad (barrio, pueblo, ciudad, etc) publicarán y
-        comentarán todas aquellas noticias o informaciones relacionadas con el lugar en el que
-        viven.
-    </p>
-    <p>Esta práctica está realizada por:</p>
-
-    <div class="general">
-        <div class="info">
-            <img src="images/Cat supreme.jpg" style="border: solid greenyellow; width: 150px; height: 200px;">
-            <p>
-                <b>Nombre: </b>Sergio Pernas Gómez<br>
-                <b>DNI: </b>12345678X<br>
-                <b>Correo electrónico: </b>spg94@alu.ua.es<br>
-                <b>Grupo: </b>1<br>
-            </p>
+        <div class="info-container">
+            <h3>Esta práctica está realizada por:</h3>
+            <hr>
+            <div class="info-box">
+                <div class="info1">
+                    <img src="images/avatars/5945891.jpg">
+                    <p>
+                        <b>Nombre: </b>Sergio Pernas Gómez<br>
+                        <b>DNI: </b>48848859X<br>
+                        <b>Correo electrónico: </b>spg94@alu.ua.es<br>
+                        <b>Grupo: </b>1<br>
+                    </p>
+                </div>
+                <div class="info2">
+                    <img src="images/avatars/avatar.jpg">
+                    <p>
+                        <b>Nombre: </b>Fernando Ortega Jimenez<br>
+                        <b>DNI: </b>-<br>
+                        <b>Correo electrónico: </b>fojo1@alu.ua.es<br>
+                        <b>Grupo: </b>1<br>
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="info">
-            <img src="images/Cat supreme.jpg" style="border: solid greenyellow; width: 150px; height: 200px;">
-            <p>
-                <b>Nombre: </b>Fernando Ortega Jimenez<br>
-                <b>DNI: </b>87654321Z<br>
-                <b>Correo electrónico: </b>fojo1@alu.ua.es<br>
-                <b>Grupo: </b>1<br>
-            </p>
+
+        <div class="work-check">
+            <h3><u>Información sobre la web</u></h3>
+            <p>Esta página consta de...</p>
+            <div class="container-consideraciones">
+                <div class="generales">
+                    <ul>
+                        <li class="titulo"><b>Implementación estandar</b></li>
+
+                        <li class="titulo"><b>Cabecera:</b></li>
+                        <li>
+                            <ul class="header-check">
+                                <li>Logotipo</li>
+
+                                <li>Titulo</li>
+
+                                <li>Subtitulo</li>
+                            </ul>
+                        </li>
+
+                        <li class="titulo"><b>Barra de navegacion:</b></li>
+                        <li>
+                            <ul class="navbar-check">
+                                <li>Inicio</li>
+
+                                <li>Buscar</li>
+
+                                <li>Nueva</li>
+
+                                <li>Logout</li>
+
+                                <li>Login</li>
+
+                                <li>Registro</li>
+                                <hr>
+                                <li>
+                                    Destacar al pasar el ratón<br>
+                                </li>
+                        </li>
+                    </ul>
+
+                    <li class="titulo"><b>Pie de página:</b></li>
+                    <li>
+                        <ul class="footer-check">
+                            <li>Informacion</li>
+                            <li>Copyright</li>
+                            <li>Año de creación</li>
+                        </ul>
+                    </li>
+
+                    <li class="titulo"><b>Destacar elementos al pasar el ratón o recibir foco</b></li>
+
+                    <li class="titulo"><b>Uso de Web Fonts</b></li>
+
+                    <li class="titulo"><b>Uso de Icon Fonts</b></li>
+
+                    <li class="titulo"><b>Diseño <em>responsive</em> basado en Mobile First:</b></li>
+                    <li>
+                        <ul class="responsive-check">
+                            <li>Uso de <em>media query</em></li>
+                            <li>Menu <em>hamburguesa</em> por <br>debajo de 480px</li>
+                            <li>Menu con solo iconos</li>
+                            <li>Menu con iconos y texto</li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="work-pages">
+                    <ul>
+                        <li class="titulo">Página de Inicio:</li>
+                        <li>
+                            <ul class="index-check">
+                                <li>Uso de la propiedad CSS text-overflow</li>
+                                <li>Uso del <em>tooltip</em></li>
+                                <li>Destacar publicaciones al pasar el ratón</li>
+                                <li>Redirección a otras páginas</li>
+                                <li>Barra de navegación para publicaciones</li>
+                            </ul>
+                        </li>
+
+                        <li class="titulo">Página de Login:</li>
+                        <li>
+                            <ul class="login-check">
+                                <li>Uso de la etiquetas y atributos HTML</li>
+                                <li>Comprobación de campo vacío</li>
+                                <li>Foco al iniciar la página</li>
+                                <li>Redirección a la página de registro mediante botón</li>
+                            </ul>
+                        </li>
+
+                        <li class="titulo">Página de Registro:</li>
+                        <li>
+                            <ul class="registro-check">
+                                <li><em>Input</em> de imagines</li>
+                                <li>Comprovación de campo vacío</li>
+                                <li>Foco al iniciar la página</li>
+                                <li>Comprobación de formato<br>(longitud, espacios en blanco y caracteres)</li>
+                                <li>Redirección a la página de inicio mediante botón</li>
+                        </li>
+                    </ul>
+
+                    <li class="titulo">Página de Búsqueda:</li>
+                    <li>
+                        <ul class="busqueda-check">
+                            <li>Por palabras</li>
+                            <li>Por fecha (desde-hasta)</li>
+                            <li>Por ubicacion</li>
+                            <li>Mostrar resultados de la búsqueda</li>
+                        </ul>
+                    </li>
+
+                    <li class="titulo">Página de Publicación:</li>
+                    <li>
+                        <ul class="publicacion-check">
+                            <li>Botones "Me gusta"/"No me gusta" con nº de clics</li>
+                            <li>Más fotos del usuario</li>
+                            <li>Sección de comentarios</li>
+                            <li>Redirección a otra parte de la página</li>
+                            <li>Redirección a la página de Búsqueda</li>
+                            <li>Comentarios con foto, autor y fecha</li>
+                            <li>Petición de logueo</li>
+                            <li><em>Textarea</em>> para comentar</li>
+                            <li>Botones de enviar y limpiar</li>
+                        </ul>
+                    </li>
+
+                    <li class="titulo">Página de Nueva:</li>
+                    <li>
+                        <ul class="nueva-check">
+                            <li>Formulario para introducir información de la noticia</li>
+                            <li>Botones de enviar y limpiar</li>
+                            <li>Campo de ubicacion con <em>datalist</em></li>
+                            <li>Campo para subir foto</li>
+                            <li>Comprobación de campo vacío</li>
+                            <li>Comprobación de longitud de texto introducido</li>
+                        </ul>
+                    </li>
+
+                    <li class="titulo">Página de Acerca:</li>
+                    <li>
+                        <ul class="acerca-check">
+                            <li>Texto informativo</li>
+                            <li>Datos de los autores</li>
+                            <li>Información del trabajo realizado</em></li>
+                            <li>Posibles incompatibilidades</li>
+                            <li>Otra información necesaria</li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <div class="checkboxes" style="width: fit-content; padding-right: 1em;">
-        <ul style="width: fit-content;">
-            <h3 style="margin-top: auto;">Consideraciones generales</h3>
-            <li>
-                <input type="checkbox" id="implementacion" checked disabled>
-                <label for="implementacion">Implementacion estandar HTML y CSS</label>
-            </li>
-            <li>
-                <input type="checkbox" id="cabecera" checked disabled>
-                <label for="cabecera"><b>Cabecera</b></label>
-            </li>
-            <ul>
-                <li>
-                    <input type="checkbox" id="logotipo">
-                    <label for="logotipo">Logotipo</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="titulo" checked disabled>
-                    <label for="titulo">Titulo</label>
-                </li>
-                <li>
-                    <input type="checkbox" id="subtitulo" checked disabled>
-                    <label for="subtitulo">Subtitulo</label>
-                </li>
-            </ul>
-            <input type="checkbox" id="navbar" checked disabled>
-            <label for="navbar"><b>Barra de navegacion</b></label>
-            <ul style="columns: 2;">
-                <li>
-                    <input type="checkbox" id="inicio" checked disabled>
-                    <label for="inicio">Inicio</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="buscar" checked disabled>
-                    <label for="buscar">Buscar</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="nueva" checked disabled>
-                    <label for="nueva">Nueva</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="logout" checked disabled>
-                    <label for="logout">Logout</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="login" checked disabled>
-                    <label for="login">Login</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="registro" checked disabled>
-                    <label for="registro">Registro</label><br>
-                </li>
-                <hr style="color: #000; column-span: all;">
-                <li style="column-span: all;">
-                    <input type="checkbox" id="destacar_navbar" checked disabled>
-                    <label for="destacar_navbar">Destacar al pasar el ratón</label><br>
-                </li>
-            </ul>
-            <input type="checkbox" id="navbar" checked disabled>
-            <label for="navbar"><b>Pie de página</b></label>
-            <ul style="columns: 2;">
-                <li>
-                    <input type="checkbox" id="acerca" checked disabled>
-                    <label for="acerca">Informacion</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="copyright" checked disabled>
-                    <label for="copyright">Copyright</label><br>
-                </li>
-                <li>
-                    <input type="checkbox" id="año_ceracion" checked disabled>
-                    <label for="año_creacion">Año de creación</label><br>
-                </li>
-            </ul>
-        </ul>
+    <footer class="site-footer">
+        <div class="container">
+            <h3 class="about-us"><a href="acerca.html">Acerca de nosotros...</a></h3>
 
-    </div>
-
+            <p class="copyright-text">Copyright &copy;2023 All Rights Reserved by <em>Sergio Pernas and Fernando
+                    Ortega</em>.</p>
+            <div style="clear: both"></div>
+        </div>
+    </footer>
 </body>
 
 </html>
