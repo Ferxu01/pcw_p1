@@ -33,6 +33,11 @@ hr {
     margin: 15px 0;
 }
 
+.img-container > p {
+    text-align: justify;
+    padding: 0 10px;
+}
+
 .user-info, .likes-info, .comments-info {
     padding: 10px;
     margin: 10px;
@@ -41,8 +46,24 @@ hr {
     justify-content: space-between;
 }
 
+.btn-valoracion {
+    background-color: #CF8320;
+    border: 2px solid #CF8320;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+.btn-valoracion:hover {
+    background-color: #925E1A;
+    cursor: pointer;
+}
+
 .publish-descrip {
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 article.comments {
@@ -76,6 +97,7 @@ div.user-comment {
     flex: 1;
     padding-top: 10px;
     padding-left: 5px;
+    text-align: justify;
 }
 .comment-date {
     align-self: flex-end;
@@ -168,6 +190,7 @@ input[type="submit"]:hover, input[type="reset"]:hover {
 
     .user-info > span, .comment-date > span {
         font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
     }
     .user-info > br {
         display: none;
