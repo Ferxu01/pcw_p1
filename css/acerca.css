@@ -87,7 +87,7 @@ section > p{
     columns: 2;
     column-gap: 40px;
 }
-.work-pages > ul > li.titulo:not(:first-child),.generales > ul > li.titulo:not(:first-child){
+.work-pages > ul > li.titulo,.generales > ul > li.titulo{
     margin: 10px 0 3px;
 }
 

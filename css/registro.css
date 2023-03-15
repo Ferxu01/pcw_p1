@@ -39,6 +39,7 @@ input[type="file"]:not(.examinar){
 div.buttons {
     display: flex;
     justify-content: space-between;
+    margin-top: 15px;
 }
 
 div.buttons button{
