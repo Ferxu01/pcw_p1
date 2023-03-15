@@ -1,28 +1,114 @@
-div.general {
-    text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
 }
-
-div.info {
-    display: inline-block;
-    border: solid;
-    margin: 1em 0.5em;
-    padding: 1em 1.5em;
+main{
+    flex-grow: 1;
 }
-
-div.info p {
-    text-align: left;
+body {
+    min-width: 380px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
-
-div.checkboxes {
-    text-align: left;
-    margin-left: 1em;
-    border: solid;
+hr {
+    margin: 0 10px;
 }
-
-ul {
+ul{
     list-style: none;
 }
 
-div.checkboxes>ul {
-    margin-left: -2em;
+section {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+section > h2 {
+    font-size: 30px;
+    margin: 0 0 15px 20px;
+    padding-top: 30px;
+}
+section > p, h2{
+    text-align: left;
+    margin: 10px 20px; 
+}
+
+.info-container > h3{
+    font-size: 20px;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info-box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin: 5px;
+}
+.info-box div{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border: ridge 10px;
+}
+.info-box > div > img{
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 200px;
+    height: 250px;
+}
+.info-box div p{
+    text-align: left;
+}
+
+.work-check {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+.work-check > h3,p {
+    text-align: center;
+}
+.container-consideraciones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container-consideraciones div{
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.responsive-check, .navbar-check{
+    columns: 2;
+}
+.navbar-check > hr{
+    margin: 10px 0px;
+    column-span: all;
+}
+.work-check ul > li > ul > li{
+    margin-left: 5px;
+}
+.work-pages{
+    columns: 2;
+    column-gap: 40px;
+}
+.work-pages > ul > li.titulo:not(:first-child),.generales > ul > li.titulo:not(:first-child){
+    margin: 10px 0 3px;
+}
+
+.work-pages > ul > li.titulo, .generales > ul > li.titulo{
+    font-weight: bold;
+
 }
