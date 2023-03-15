@@ -8,23 +8,25 @@ div.login-div {
     text-align: center;
 }
 
-/*button[type="submit"] {
-    width: fit-content;
-    height: fit-content;
-    padding: 4px;
-    background-color: #3a70d3;
-    border: 2px solid #3a70d3;
+.btn-goto-registro {
+    display: inline-block;
+    width: 80px;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #008CBA;
+    border: 2px solid #008CBA;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 10px;
     margin-top: 15px;
-}*/
+}
 
-/*button[type="submit"]:hover {
-    background-color: lightblue;
-    opacity: 0.7;
-    color: #000;
-}*/
+.btn-goto-registro:hover {
+    background-color: #024157;
+    cursor: pointer;
+}
 
 input[type="text"],
 input[type="password"] {

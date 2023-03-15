@@ -1,16 +1,8 @@
 body > nav {
-    /*background-color: #99FFA2FF;*/
     background-color: #FFA500;
     position: sticky;
     top: 0;
 }
-
-/*body > nav > ul{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    justify-content: flex-start;
-}*/
 
 body > nav > ul{
     list-style: none;
@@ -61,7 +53,7 @@ body > nav > label {
     }
 
     body > nav > ul > li{
-        display: flex; /*Loa enlaces quedan con ancho que ocupan y enlace no es amplio*/
+        display: flex; /*Los enlaces quedan con ancho que ocupan y enlace no es amplio*/
         flex-grow: 1;
         align-items: center;
         justify-content: space-evenly;

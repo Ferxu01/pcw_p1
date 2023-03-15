@@ -11,9 +11,6 @@ div.notice-search, div.date-search {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (min-width: 480px) {
-}
-
 @media (min-width: 760px) {
     div.filter-form {
         display: flex;

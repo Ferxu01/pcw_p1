@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/index.css">
 
@@ -50,8 +50,7 @@
                 <a href="login.html"><span>Login</span><img src="images/icons/login-icon.png" alt="login-icon"></a>
             </li>
             <li>
-                <a href="registro.html"><span>Registro</span><img src="images/icons/register-icon.png"
-                        alt="register-icon"></a>
+                <a href="registro.html"><span>Registro</span><img src="images/icons/register-icon.png" alt="register-icon"></a>
             </li>
         </ul>
     </nav>
@@ -62,12 +61,13 @@
                 <form class="login-form" action="registro.html">
                     <h2>Iniciar sesión</h2>
                     
-                    <label for="text">Email o usuario<br></label>
-                    <input type="text" id="text" name="text" autofocus required><br>
+                    <label for="login">Login<br></label>
+                    <input type="text" id="login" name="login" autofocus required><br>
 
                     <label for="password">Contraseña<br></label>
-                    <input type="password" id="pass" name="pass" required><br>
+                    <input type="password" id="password" name="password" required><br>
                     <input type="submit" value="Entrar">
+                    <a class="btn-goto-registro" href="registro.html">Regístrate</a>
                 </form>
             </div>
 

@@ -104,7 +104,7 @@ div.user-comment {
     margin-right: 5px;   
 }
 
-.user-avatar, .comment { /*Prueba de tamaño de contenedores*/
+.user-avatar, .comment {
     margin: 5px 2px;
 }
 
